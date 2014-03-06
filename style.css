@@ -1,0 +1,35 @@
+
+/*reglas pagina*/
+body{
+	background-color: #DB00FF;
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+h5{
+	text-align: center;
+	font-size: 25px;
+}
+
+textarea {
+	width: 350px;
+	height: 120px;
+	font-size: 15px;
+}
+
+footer{
+	margin-top: 100px;
+	text-align: center;
+	background-color:#FFFC00;
+	
+}
+footer h4{
+	margin-top: 10px;
+	text-align: center;
+	
+}
+#btn_validar{
+	background-color: #C001FF;
+}
