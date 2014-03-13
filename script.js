@@ -7,8 +7,8 @@ window.onload = function()
 function validar ()
 {	var cifrar= function (){
 	debugger;
- 	 	var textoSinCifrar = getById('texto1').value,
- 	 		posicion = +getById('numero').value,
+ 	 	var textoSinCifrar = getElementById('texto1').value,
+ 	 		posicion = +getElementById('numero').value,
  	 		i = 0,
  	 		textoCifrado = '';
 
@@ -19,8 +19,8 @@ function validar ()
  	}
 
 
- 	getById("validar").addEventListener('click', function(event){
- 		getById("texto2").innerHTML = cifrar();
+ 	getElementById("validar").addEventListener('click', function(event){
+ 		getElementById("texto2").innerHTML = cifrar();
  	});
  }
 
